@@ -1,3 +1,20 @@
+# IRCTC (Indian Railway Catering and Tourism Corporation) Booking System🚅
+
+## **Project Name**  
+`core-java-irctc-booking-system`
+
+---
+
+## **Packages Structure**
+- package names: com.irctcbooking.model
+- package names: com.irctcbooking.service
+- package names: com.irctcbooking.repository
+- package names: com.irctcbooking.controller
+- package names: com.irctcbooking.utility
+
+
+
+## **Functionality**
 
 1. **User Registration**  
 2. **Train Destination with Scheduling**  
