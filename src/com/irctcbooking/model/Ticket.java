@@ -3,38 +3,51 @@ package com.irctcbooking.model;
 public class Ticket {
 
 
-    private int trainId;
+    private int ticketId;
+    private String pnrNumber;
+    private int userId;
     private String trainName;
-    private String sourceStation;
-    private String destinationStation;
+    private int seatNumber;
     private String departureTime;
-    private String arrivalTime;
-    private int totalSeats;
-    private int availableSeats;
-    private double pricePerSeat;
-
+    private String bookingDate;
+    private double ticketPrice;
 
     @Override
     public String toString() {
-        return "Train{" +
-                "trainId=" + trainId +
+        return "Ticket{" +
+                "ticketId=" + ticketId +
+                ", pnrNumber='" + pnrNumber + '\'' +
+                ", userId=" + userId +
                 ", trainName='" + trainName + '\'' +
-                ", sourceStation='" + sourceStation + '\'' +
-                ", destinationStation='" + destinationStation + '\'' +
+                ", seatNumber=" + seatNumber +
                 ", departureTime='" + departureTime + '\'' +
-                ", arrivalTime='" + arrivalTime + '\'' +
-                ", totalSeats=" + totalSeats +
-                ", availableSeats=" + availableSeats +
-                ", pricePerSeat=" + pricePerSeat +
+                ", bookingDate='" + bookingDate + '\'' +
+                ", ticketPrice=" + ticketPrice +
                 '}';
     }
 
-    public int getTrainId() {
-        return trainId;
+    public int getTicketId() {
+        return ticketId;
     }
 
-    public void setTrainId(int trainId) {
-        this.trainId = trainId;
+    public void setTicketId(int ticketId) {
+        this.ticketId = ticketId;
+    }
+
+    public String getPnrNumber() {
+        return pnrNumber;
+    }
+
+    public void setPnrNumber(String pnrNumber) {
+        this.pnrNumber = pnrNumber;
+    }
+
+    public int getUserId() {
+        return userId;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
     public String getTrainName() {
@@ -45,20 +58,12 @@ public class Ticket {
         this.trainName = trainName;
     }
 
-    public String getSourceStation() {
-        return sourceStation;
+    public int getSeatNumber() {
+        return seatNumber;
     }
 
-    public void setSourceStation(String sourceStation) {
-        this.sourceStation = sourceStation;
-    }
-
-    public String getDestinationStation() {
-        return destinationStation;
-    }
-
-    public void setDestinationStation(String destinationStation) {
-        this.destinationStation = destinationStation;
+    public void setSeatNumber(int seatNumber) {
+        this.seatNumber = seatNumber;
     }
 
     public String getDepartureTime() {
@@ -69,35 +74,20 @@ public class Ticket {
         this.departureTime = departureTime;
     }
 
-    public String getArrivalTime() {
-        return arrivalTime;
+    public String getBookingDate() {
+        return bookingDate;
     }
 
-    public void setArrivalTime(String arrivalTime) {
-        this.arrivalTime = arrivalTime;
+    public void setBookingDate(String bookingDate) {
+        this.bookingDate = bookingDate;
     }
 
-    public int getTotalSeats() {
-        return totalSeats;
+    public double getTicketPrice() {
+        return ticketPrice;
     }
 
-    public void setTotalSeats(int totalSeats) {
-        this.totalSeats = totalSeats;
-    }
-
-    public double getPricePerSeat() {
-        return pricePerSeat;
-    }
-
-    public void setPricePerSeat(double pricePerSeat) {
-        this.pricePerSeat = pricePerSeat;
-    }
-
-    public int getAvailableSeats() {
-        return availableSeats;
-    }
-
-    public void setAvailableSeats(int availableSeats) {
-        this.availableSeats = availableSeats;
+    public void setTicketPrice(double ticketPrice) {
+        this.ticketPrice = ticketPrice;
     }
 }
+
