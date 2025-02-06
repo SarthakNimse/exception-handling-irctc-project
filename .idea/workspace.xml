@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4325969e-866e-4d41-9df6-3b49984f832b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/irctcbooking/IrctcBookingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/irctcbooking/exception/AdminAccessDeniedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/irctcbooking/exception/AdminNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/irctcbooking/exception/BookingCancellationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/irctcbooking/exception/BookingNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/irctcbooking/exception/ContactNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/irctcbooking/exception/InvalidPaymentMethodException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/irctcbooking/exception/InvalidTicketException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/irctcbooking/exception/InvalidUserDetailsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/irctcbooking/exception/NotificationDeliveryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/irctcbooking/exception/NotificationNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/irctcbooking/exception/PaymentFailedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/irctcbooking/exception/SeatsNotAvailableException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/irctcbooking/exception/TicketNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/irctcbooking/exception/TrainNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/irctcbooking/exception/UserNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irctcbooking/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/irctcbooking/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irctcbooking/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/irctcbooking/service/UserService.java" afterDir="false" />
-    </list>
+    <list default="true" id="4325969e-866e-4d41-9df6-3b49984f832b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
