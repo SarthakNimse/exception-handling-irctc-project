@@ -6,14 +6,14 @@ public class BookingHistory {
     private int userId;
     private String trainName;
     private int ticketId;
-    private String payment;
+    private String paymentId;
 
-    public String getPayment() {
-        return payment;
+    public String getPaymentId() {
+        return paymentId;
     }
 
-    public void setPayment(String payment) {
-        this.payment = payment;
+    public void setPaymentId(String paymentId) {
+        this.paymentId = paymentId;
     }
 
     public int getTicketId() {
@@ -56,7 +56,7 @@ public class BookingHistory {
                 ", userId=" + userId +
                 ", trainName='" + trainName + '\'' +
                 ", ticketId=" + ticketId +
-                ", payment='" + payment + '\'' +
+                ", payment='" + paymentId + '\'' +
                 '}';
     }
 }

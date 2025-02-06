@@ -2,61 +2,50 @@ package com.irctcbooking.model;
 
 public class Admin {
 
-        private int adminId;
-        private String name;
-        private String email;
-        private String phone;
-        private String password;
+    private int adminId;
+    private String adminName;
+    private String adminEmail;
+    private String adminPhone;
 
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getId() {
+    public int getAdminId() {
         return adminId;
     }
 
-    public void setId(int adminId) {
+    public void setAdminId(int adminId) {
         this.adminId = adminId;
+    }
+
+    public String getAdminName() {
+        return adminName;
+    }
+
+    public void setAdminName(String adminName) {
+        this.adminName = adminName;
+    }
+
+    public String getAdminEmail() {
+        return adminEmail;
+    }
+
+    public void setAdminEmail(String adminEmail) {
+        this.adminEmail = adminEmail;
+    }
+
+    public String getAdminPhone() {
+        return adminPhone;
+    }
+
+    public void setAdminPhone(String adminPhone) {
+        this.adminPhone = adminPhone;
     }
 
     @Override
     public String toString() {
         return "Admin{" +
                 "adminId=" + adminId +
-                ", name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", phone='" + phone + '\'' +
-                ", password='" + password + '\'' +
+                ", adminName='" + adminName + '\'' +
+                ", adminemail='" + adminEmail + '\'' +
+                ", adminPhone='" + adminPhone + '\'' +
                 '}';
     }
 }
-

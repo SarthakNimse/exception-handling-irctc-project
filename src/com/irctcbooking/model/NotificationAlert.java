@@ -8,6 +8,17 @@ public class NotificationAlert {
     private String message;
     private String dateTime;
 
+    @Override
+    public String toString() {
+        return "NotificationAlert{" +
+                "notificationAlertId=" + notificationAlertId +
+                ", userId=" + userId +
+                ", type='" + type + '\'' +
+                ", message='" + message + '\'' +
+                ", dateTime='" + dateTime + '\'' +
+                '}';
+    }
+
     public int getNotificationAlertId() {
         return notificationAlertId;
     }
@@ -48,16 +59,5 @@ public class NotificationAlert {
         this.dateTime = dateTime;
     }
 
-    @Override
-    public String toString() {
-        return "NotificationAlert{" +
-                "notificationAlertId=" + notificationAlertId +
-                ", userId=" + userId +
-                ", type='" + type + '\'' +
-                ", message='" + message + '\'' +
-                ", dateTime='" + dateTime + '\'' +
-                '}';
-
 
     }
-}

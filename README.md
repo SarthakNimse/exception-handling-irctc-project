@@ -27,6 +27,6 @@
 
 ## **POJO (Plain Old Java Objects)**
 
-- user - (user id, full name, username, email, password ,phone no)
-- train - (train name, sourceStation, destinationStation, departureTime, arrivalTime, totalSeats, availableSeats, pricePerSeat)
-- Ticket - (ticketId, pnrNumber, userId, train name, seatNumber, departureTime, bookingDate, ticket price)
+- user - (user id, full adminName, username, email, password ,phone no)
+- train - (train adminName, sourceStation, destinationStation, departureTime, arrivalTime, totalSeats, availableSeats, pricePerSeat)
+- Ticket - (ticketId, pnrNumber, userId, train adminName, seatNumber, departureTime, bookingDate, ticket price)
