@@ -1,4 +1,17 @@
+# **IRCTC Booking System 🚅**  
+*A Java-Based Railway Ticket Booking System*  
 
+  
+
+---
+
+## **📌 Project Overview**  
+The **IRCTC Booking System** is a **Core Java-based** project designed to simulate a railway ticket booking platform similar to **Indian Railway Catering and Tourism Corporation (IRCTC)**. It includes **user registration, ticket booking, train scheduling, payment processing, booking history, and admin functionalities**.  
+
+✅ **Tech Stack:** Java (Core Java, Collections, OOPs)  
+
+
+---
 
 📦 core-java-irctc-booking-system ┣ 📂 src/com/irctcbooking ┃ ┣ 📂 model # POJO Classes ┃ ┣ 📂 service # Business Logic ┃ ┣ 📂 repository # Data Management ┃ ┣ 📂 controller # Handles User Requests ┃ ┣ 📂 utility # Helper Classes ┃ ┣ 📂 exception # Custom Exception Handling ┃  ┣ 📜 README.md # Project Documentation ┣ 📜 LICENSE # License Information ┣ 📜 .gitignore # Git Ignore File
 
