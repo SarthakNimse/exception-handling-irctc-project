@@ -31,7 +31,7 @@ The **IRCTC Booking System** is a **Core Java-based** project designed to simula
 - **View & Cancel Bookings**  
 
 ### **💳 Payment Processing**
-- **Payment Methods:** UPI, Credit/Debit Card, Net Banking  
+- **Payment Methods:** UPI, Credit/Debit Card
 - **Transaction Status:** Successful / Failed  
 
 ### **📜 Booking History & Notifications**
